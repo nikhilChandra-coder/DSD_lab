@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/14.1/Lab3/simulation/qsim
+vLab3
+Z0 !s110 1727314264
+!i10b 1
+!s100 Q[8GXz7U1X^CIPSkHzY>m1
+IC:4R1PHM7i5BkGfT<_5LM0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 d/home/user/Desktop/Lab3 - Copy/simulation/qsim
+w1727314263
+8Lab3.vo
+FLab3.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1727314264.816612
+!s107 Lab3.vo|
+!s90 -work|work|Lab3.vo|
+!i113 1
+Z4 o-work work
+n@lab3
+vLab3_vlg_check_tst
+R0
+!i10b 1
+!s100 4@Ql3nU4g:m@:UjZE@]bY1
+I>^4U@29]3<U[@bWO^GkD62
+R1
+R2
+Z5 w1727314262
+Z6 8Waveform1.vwf.vt
+Z7 FWaveform1.vwf.vt
+L0 64
+R3
+r1
+!s85 0
+31
+Z8 !s108 1727314264.851564
+Z9 !s107 Waveform1.vwf.vt|
+Z10 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R4
+n@lab3_vlg_check_tst
+vLab3_vlg_sample_tst
+R0
+!i10b 1
+!s100 m@O];Yh`jZ]N?NSlH]AK@3
+Io>ffJj@P5Wz`z<3^^9Ih70
+R1
+R2
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@lab3_vlg_sample_tst
+vLab3_vlg_vec_tst
+R0
+!i10b 1
+!s100 _2Je2cFo;ViV<UQi5YAfC2
+I3ZUk7OG@[n<i`91Nnb@??0
+R1
+R2
+R5
+R6
+R7
+L0 412
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@lab3_vlg_vec_tst

@@ -1,0 +1,61 @@
+|Game
+d <= room:inst5.d
+CLK => room:inst5.CLK
+CLK => sword:inst.CLK
+N => room:inst5.N
+S => room:inst5.S
+E => room:inst5.E
+W => room:inst5.W
+R => sword:inst.R
+R => room:inst5.R
+win <= room:inst5.win
+s6 <= room:inst5.s6
+s5 <= room:inst5.s5
+s3 <= room:inst5.s3
+s4 <= room:inst5.s4
+s2 <= room:inst5.s2
+s1 <= room:inst5.s1
+s0 <= room:inst5.s0
+V <= sword:inst.V
+sw <= room:inst5.sw
+
+
+|Game|room:inst5
+s6 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst43.IN0
+CLK => inst41.IN0
+CLK => inst39.IN0
+CLK => inst38.IN0
+CLK => inst42.IN0
+CLK => inst40.IN0
+CLK => inst52.IN0
+R => inst7.IN0
+R => inst4.IN0
+V => inst12.IN0
+V => inst5.IN1
+E => inst23.IN1
+E => inst22.IN1
+E => inst8.IN1
+S => inst21.IN1
+W => inst3.IN1
+W => inst11.IN1
+N => inst9.IN1
+win <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+sw <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Game|sword:inst
+V <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst3.IN0
+R => inst4.IN1
+R => inst15.IN0
+sw => inst2.IN1
+
+

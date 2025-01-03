@@ -1,0 +1,5 @@
+module sword (input logic sw, reset, clk,
+output logic v);
+	//one instance of D-flip flop to store sword FSM state
+	
+endmodule

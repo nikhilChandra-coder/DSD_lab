@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/lab1.bdf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/Waveform.vwf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/Waveform1.vwf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/output_files/Chain1.cdf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/output_files/Waveform.vwf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/output_files/Chain3.cdf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/output_files/Chain2.cdf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/output_files/Waveform1.vwf
+source_file = 1, /home/user/Downloads/DSDLab1nikhil/db/lab1.cbx.xml
+design_name = lab1
+instance = comp, \pin_name3~output , pin_name3~output, lab1, 1
+instance = comp, \pin_name2~input , pin_name2~input, lab1, 1
+instance = comp, \pin_name1~input , pin_name1~input, lab1, 1

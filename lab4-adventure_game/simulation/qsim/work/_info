@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/user/Downloads/Lab04/simulation/qsim
+vGame
+Z1 !s110 1728869026
+!i10b 1
+!s100 FWSPVXojh0?PEJ@eCI7=Z2
+IBn:Yb8PXDOlcfTa06mDHi2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1728869025
+8lab04_nc.vo
+Flab04_nc.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1728869026.435201
+!s107 lab04_nc.vo|
+!s90 -work|work|lab04_nc.vo|
+!i113 1
+Z4 o-work work
+n@game
+vGame_vlg_check_tst
+R1
+!i10b 1
+!s100 MR_0izBl??c49TI_?LhaE0
+IeZ8ZfZ03=WQPS18:QjZm@0
+R2
+R0
+Z5 w1728869023
+Z6 8Waveform2.vwf.vt
+Z7 FWaveform2.vwf.vt
+L0 68
+R3
+r1
+!s85 0
+31
+Z8 !s108 1728869026.472870
+Z9 !s107 Waveform2.vwf.vt|
+Z10 !s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R4
+n@game_vlg_check_tst
+vGame_vlg_sample_tst
+R1
+!i10b 1
+!s100 @YlB@AaY2^P3mg0^K2[Xj0
+I]`05kEYOFzFV0le:kT@c]2
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@game_vlg_sample_tst
+vGame_vlg_vec_tst
+R1
+!i10b 1
+!s100 BQKVTko47e5DOdCP=J4jm3
+I8iEVHZCYg`1z@::ihHj8[3
+R2
+R0
+R5
+R6
+R7
+L0 433
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@game_vlg_vec_tst

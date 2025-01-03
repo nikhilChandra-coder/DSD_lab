@@ -1,0 +1,122 @@
+|game
+clk => clk.IN2
+n => n.IN1
+s => s.IN1
+e => e.IN1
+w => w.IN1
+reset => reset.IN2
+s6 << room:room_fsm.s6
+win << room:room_fsm.win
+s5 << room:room_fsm.s5
+d << room:room_fsm.d
+s4 << room:room_fsm.s4
+s3 << room:room_fsm.s3
+sw << sw.DB_MAX_OUTPUT_PORT_TYPE
+s2 << room:room_fsm.s2
+s1 << room:room_fsm.s1
+s0 << room:room_fsm.s0
+v << v.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|sword:sword_fsm
+sw => v1.IN0
+reset => v1.IN1
+clk => clk.IN1
+v <= d_ff:dff6.q
+
+
+|game|sword:sword_fsm|d_ff:dff6
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm
+clk => clk.IN7
+n => st1.IN0
+n => st2.IN1
+s => st2.IN0
+s => st2.IN0
+s => st4.IN1
+s => st1.IN1
+e => st1.IN0
+e => st2.IN0
+e => st2.IN1
+e => st4.IN0
+e => st0.IN0
+e => st3.IN0
+w => st0.IN0
+w => st3.IN0
+w => st2.IN1
+v => st5.IN0
+v => st6.IN0
+reset => st0.IN1
+reset => st0.IN1
+reset => st0.IN1
+reset => st1.IN1
+reset => st1.IN1
+reset => st1.IN1
+reset => st2.IN1
+reset => st2.IN1
+reset => st2.IN1
+reset => st3.IN1
+reset => st3.IN1
+reset => st4.IN1
+reset => st5.IN1
+reset => st5.IN1
+reset => st6.IN1
+reset => st6.IN1
+s6 <= d_ff:dff6.q
+s5 <= d_ff:dff5.q
+s4 <= d_ff:dff4.q
+s3 <= d_ff:dff3.q
+s2 <= d_ff:dff2.q
+s1 <= d_ff:dff1.q
+s0 <= d_ff:dff0.q
+win <= d_ff:dff5.q
+d <= d_ff:dff6.q
+sw <= d_ff:dff3.q
+
+
+|game|room:room_fsm|d_ff:dff0
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff5
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:room_fsm|d_ff:dff6
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
